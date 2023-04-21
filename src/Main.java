@@ -6,7 +6,10 @@ public class Main {
         int a[][] = bidimensional();
         //System.out.println(Arrays.deepToString(a));
     }
-    
+
+    public static void imprimir(String test){
+        System.out.println(test);
+    }
     public static int[][] bidimensional () {
         int a[][] = new int[5][5];
         for (int i = 0; i < a.length; i++){
@@ -22,5 +25,6 @@ public class Main {
             System.out.println("");
         }
         return a;
-    } 
+    }
+
 }
